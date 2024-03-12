@@ -1,0 +1,17 @@
+.bottol-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+@media (max-width:760px) {
+    .bottol-container{
+        grid-template-columns: auto;
+    }
+}
+
+@media (min-width:761px) and (max-width: 1040px) {
+    .bottol-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}

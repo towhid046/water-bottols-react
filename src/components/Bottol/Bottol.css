@@ -1,0 +1,9 @@
+.bottol{
+    padding: 20px;
+    border: 1px solid rgba(10, 97, 10, 0.637) ;
+    border-radius:15px;
+}
+.bottol img{
+    width: 250px;
+    border-radius: 15px;
+}
